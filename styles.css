@@ -1,0 +1,178 @@
+* {
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    max-width: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    color: #000000;
+    width: auto;height: auto;
+    margin-right: 20px;
+    background-color: #e74c3c;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.btn-primary {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#hero {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-image {
+    margin-left: auto;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    margin-right: 100%;
+}
+
+.hero-content {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#products {
+    padding: 40px 0 0 40px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.product {
+    text-align: center;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.products h3 {
+    text-align: center;
+}
+
+#testimonials {
+    background-color: #ea8736;
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.testimonial h4 {
+    margin: 20px;
+    max-width: 300px;
+}
+
+.testimonials img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#contact {
+    padding: 40px;
+    text-align: center;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.sosial-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.cart {
+    height: 50px;
+    background-color: rgb(228, 46, 46);
+    border-radius: 10px;
+}
